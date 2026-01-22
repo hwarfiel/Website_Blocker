@@ -20,6 +20,9 @@
     ],
 
     "web_accessible_resources": [
-        "./css/style.css"
+        {
+            "resources" : "./css/style.css"
+        }
+        
     ]
  }
