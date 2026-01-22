@@ -1,0 +1,25 @@
+ {
+    "manisfest_version" : 3,
+    "name" : "HayHayy's Web Blocker",
+    "description" : "Simple Website Blocker that makes it realy difficult to access Websites!",
+    "version" : "1.0.0",
+    "icons" : {},
+    "content_scripts" :[
+        {
+            "matches" : [
+                "https://www.youtube.com/",
+                "https://www.pornhub.com/",
+                "https://www.xvideos.com/",
+                "https://www.brazzers.com/",
+                "https://www.playvids.com"
+            ],
+            "css" : [
+                "css/style.css"
+            ]
+        }
+    ],
+
+    "web_accessible_resources": [
+        "css/style.css"
+    ]
+ }
