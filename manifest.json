@@ -17,12 +17,5 @@
                 "./css/style.css"
             ]
         }
-    ],
-
-    "web_accessible_resources": [
-        {
-            "resources" : "./css/style.css"
-        }
-        
     ]
  }
