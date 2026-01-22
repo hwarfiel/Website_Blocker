@@ -1,5 +1,5 @@
  {
-    "manisfest_version" : 3,
+    "manifest_version" : 3,
     "name" : "HayHayy's Web Blocker",
     "description" : "Simple Website Blocker that makes it realy difficult to access Websites!",
     "version" : "1.0.0",
