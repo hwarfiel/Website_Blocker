@@ -14,12 +14,12 @@
                 "https://www.playvids.com/*"
             ],
             "css" : [
-                "css/style.css"
+                "./css/style.css"
             ]
         }
     ],
 
     "web_accessible_resources": [
-        "css/style.css"
+        "./css/style.css"
     ]
  }
