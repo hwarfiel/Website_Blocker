@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h3>Distraction Blocker</h3>
+  <input type="text" id="siteInput" placeholder="e.g., facebook.com, instagram.com">
+  
+  <div class="option-group">
+    <label><input type="radio" name="blockType" value="hard"> 🔒 Hard Block <span class="warning">(Permanent - CANNOT be unblocked)</span></label>
+    <label><input type="radio" name="blockType" value="time" checked> 🕒 Time Block (Scheduled)</label>
+    
+    <div id="timePickers" class="time-pickers" style="display: block;">
+      <label>Start: <input type="time" id="startTime" value="09:00"></label>
+      <label>End: <input type="time" id="endTime" value="17:00"></label>
+    </div>
+  </div>
+
+  <button id="blockBtn">Apply Restriction</button>
+  
+  <div id="blocked-list"><strong>Active Restrictions:</strong><div id="listContainer"></div></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
