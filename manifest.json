@@ -1,21 +1,20 @@
- {
-    "manifest_version" : 3,
-    "name" : "HayHayy's Web Blocker",
-    "description" : "Simple Website Blocker that makes it realy difficult to access Websites!",
-    "version" : "1.0.0",
-    "icons" : {},
-    "content_scripts" : [
-        {
-            "matches" : [
-                "https://www.youtube.com/*",
-                "https://www.pornhub.com/*",
-                "https://www.xvideos.com/*",
-                "https://www.brazzers.com/*",
-                "https://www.playvids.com/*"
-            ],
-            "css" : [
-                "./css/style.css"
-            ]
-        }
-    ]
- }
+{
+  "manifest_version": 3,
+  "name": "Website Blocker",
+  "version": "1.0",
+  "description": "Blocks distracting websites and styles the blocked pages.",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["./style.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
