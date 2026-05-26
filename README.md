@@ -1,11 +1,11 @@
 # Website_Blocker
-A Chrome Extension blocking listed website
+FILL IN
+
+### Description
+fill in
 
 ## Author
 Hayden Warfield
-
-### Description
-A Simple Site Blocking Web Extension to combat distracting and erotic sites
 
 ### installing locally:
 
@@ -19,3 +19,22 @@ A Simple Site Blocking Web Extension to combat distracting and erotic sites
 ### Sources
 
 Based on this project: https://github.com/skinsshark/site-blocker
+
+## Loopholes and Fixes
+
+Extensions have an inherent loophole: you can always right-click the extension icon and hit "Remove from Browser". To prevent yourself from bypassing your own system when a distraction craving hits, modify your computer's OS Hosts File. This blocks the sites at the operating system root, applying to all present and future browsers automatically.
+
+1. Open your terminal application (Terminal on Mac, or Command Prompt run as Administrator on Windows).
+
+2. Open the host configuration:Windows: Type notepad c:\windows\system32\drivers\etc\hostsMac / Linux: Type sudo nano /etc/hosts
+
+3. Scroll to the bottom and map the distraction domains to an unroutable IP (0.0.0.0):
+
+```
+0.0.0.0 facebook.com
+0.0.0.0 ://facebook.com
+0.0.0.0 instagram.com
+0.0.0.0 ://instagram.com
+```
+
+4. Save and exit. The sites are now unreachable globally on your machine across every browser engine
