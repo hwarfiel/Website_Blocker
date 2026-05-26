@@ -1,10 +1,10 @@
 # Website_Blocker
-F
+A more versitile Website BLocker.
 
 ## Description
 A Website Blocker with Different Block Modes
-- Hard Block
-- Time Block
+- Hard Block (For ultra distracting and inappriote sites)
+- Time Block (Timed block to limit distractions)
 
 ## Author
 Hayden Warfield
