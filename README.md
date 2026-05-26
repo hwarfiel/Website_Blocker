@@ -12,6 +12,9 @@ Hayden Warfield
 ### Compatible Browsers
 - Chrome
 - Firefox
+- Brave
+- Edge
+- Opera GX
 
 ### installing locally:
 
