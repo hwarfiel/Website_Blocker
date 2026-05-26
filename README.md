@@ -1,13 +1,17 @@
 # Website_Blocker
 F
 
-### Description
-fill in
+## Description
+A Website Blocker with Different Block Modes
+- Hard Block
+- Time Block
 
 ## Author
 Hayden Warfield
 
-## Compatability
+### Compatible Browsers
+- Chrome
+- Firefox
 
 ### installing locally:
 
@@ -18,11 +22,7 @@ Hayden Warfield
 5. upload folder
 6. extension should now be enabled!
 
-### Sources
-
-Based on this project: https://github.com/skinsshark/site-blocker
-
-## Loopholes and Fixes
+### Loopholes and Fixes
 
 Extensions have an inherent loophole: you can always right-click the extension icon and hit "Remove from Browser". To prevent yourself from bypassing your own system when a distraction craving hits, modify your computer's OS Hosts File. This blocks the sites at the operating system root, applying to all present and future browsers automatically.
 
@@ -40,3 +40,7 @@ Extensions have an inherent loophole: you can always right-click the extension i
 ```
 
 4. Save and exit. The sites are now unreachable globally on your machine across every browser engine
+
+### Sources
+
+Based on this project: https://github.com/skinsshark/site-blocker
